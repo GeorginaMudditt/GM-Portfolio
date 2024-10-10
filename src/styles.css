@@ -99,6 +99,7 @@ footer {
 
 .btn-lg {
   background-color: var(--feature-color-2);
+  border: 3px solid var(--feature-color-2);
   box-shadow: var(--box-shadow-light);
   font-family: var(--font-body);
   font-size: 30px;
@@ -113,8 +114,9 @@ footer {
 
 .btn-netlify {
   background-color: var(--feature-color-1);
+  border: 3px solid var(--feature-color-1);
   font-size: 25px;
-  margin: 50px 0;
+  margin: 15px 0;
 }
 
 .btn-netlify:hover {
