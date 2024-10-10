@@ -7,11 +7,7 @@
       name="description"
       content="Showcasing some recent projects by Georgina Mudditt, a front-end developer based in France"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script
       src="https://kit.fontawesome.com/a127163454.js"
       crossorigin="anonymous"
@@ -37,59 +33,47 @@
     <link rel="stylesheet" href="src/styles.css" />
     <title>Portfolio of Georgina Mudditt, front-end developer</title>
   </head>
+
   <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light pt-3 pb-3">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <nav class="navbar navbar-expand-lg pt-3 pb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">GM</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
+
     <main>
-    <h2 class="first-line">Hello 👋 I am</h2>
-    <h1>Georgina Mudditt</h1>
-    <h2>Front-end developer based in France</h2>
-    <button type="button" class="btn btn-lg"><a href="mailto:g.k.mudditt@gmail.com">Send me an email</a></button>
-    <h2>My most recent project:</h2>
-    <div class="container mt-5 mb-5 pt-5 pb-5 recent-project-container">
-      <div class="row">
-        <div class="col-md-6"><img src="images/world-clock.png" class="img-fluid" id="recent-project-screenshot"/></div>
-        <div class="col-md-6">
-          <h3>World Clock</h3>
-          <p>
-            A simple world clock app that allows you to see the time in
-            selected cities around the world.
-          </p>
-          <button type="button" class="btn btn-lg btn-netlify"><a href="https://gm-world-clock.netlify.app/" target="_blank">View my World Clock project on Netlify</a></button>
-      </div>
-    </div>
-</main>
+        <h2 class="first-line">Hello 👋 I am</h2>
+        <h1>Georgina Mudditt</h1>
+        <h2>Front-end developer based in France</h2>
+        <button type="button" class="btn btn-lg"><a href="mailto:g.k.mudditt@gmail.com">Send me an email</a></button>
+        <h2>My most recent project:</h2>
+        <div class="container mt-5 mb-5 pt-5 pb-5 recent-project-container">
+            <div class="row">
+                <div class="col-md-6"><img src="images/world-clock.png" class="img-fluid" id="recent-project-screenshot"/>
+                </div>
+                <div class="col-md-6">
+                    <h3>World Clock</h3>
+                    <p>A simple world clock app that allows you to see the time in
+                    selected cities around the world.</p>
+                    <button type="button" class="btn btn-lg btn-netlify"><a href="https://gm-world-clock.netlify.app/" target="_blank">View my World Clock project on Netlify</a></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <footer>
       <a href="https://www.linkedin.com/in/georgina-mudditt/" target="_blank"><i class="fa-brands fa-linkedin socials"></i></a>
         <a href="https://github.com/GeorginaMudditt" target="_blank"><i class="fa-brands fa-square-github socials"></a></i>

@@ -68,10 +68,9 @@ footer {
   background-color: var(--feature-color-1-light);
   font-family: var(--font-heading);
   font-size: 30px;
-  padding-left: 20px;
 }
 
-.navbar li {
+.navbar a {
   margin: 0 50px;
 }
 
@@ -113,4 +112,32 @@ footer {
 #recent-project-screenshot {
   border-radius: 10px;
   box-shadow: var(--box-shadow-heavy);
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  p {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .btn-lg {
+    font-size: 20px;
+  }
+  .btn-netlify {
+    width: 60%;
+  }
+  #recent-project-screenshot {
+    width: 80%;
+  }
 }
