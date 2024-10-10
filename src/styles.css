@@ -6,6 +6,10 @@
   --feature-color-1: #6173f4;
   --feature-color-1-light: #dfe3fd;
   --feature-color-2: #f35e3e;
+  --box-shadow-light: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --box-shadow-heavy: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 body {
@@ -13,6 +17,11 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 h1 {
@@ -28,18 +37,26 @@ h2 {
   font-size: 60px;
 }
 
+h3 {
+  color: var(--text-color);
+  font-family: var(--font-heading);
+  font-size: 40px;
+  padding-top: 20px;
+}
+
 p {
   color: var(--text-color);
   font-family: var(--font-body);
-  font-size: 24px;
+  font-size: 34px;
+  margin: 40px;
 }
 
 footer {
   background-color: var(--feature-color-1-light);
+  display: flex;
   padding: 20px 0;
-  position: fixed;
-  bottom: 0;
   width: 100%;
+  bottom: 0;
 }
 
 .navbar {
@@ -47,11 +64,10 @@ footer {
   top: 0;
   width: 100%;
 }
-.navbar,
-.navbar-brand {
+.navbar {
   background-color: var(--feature-color-1-light);
   font-family: var(--font-heading);
-  font-size: 40px;
+  font-size: 30px;
   padding-left: 20px;
 }
 
@@ -72,6 +88,7 @@ footer {
 
 .btn-lg {
   background-color: var(--feature-color-2);
+  box-shadow: var(--box-shadow-light);
   font-family: var(--font-body);
   font-size: 30px;
   font-weight: bold;
@@ -81,4 +98,19 @@ footer {
 
 .btn-lg:hover {
   border: 3px solid var(--feature-color-2);
+}
+
+.btn-netlify {
+  background-color: var(--feature-color-1);
+  font-size: 25px;
+  margin: 50px 0;
+}
+
+.btn-netlify:hover {
+  border: 3px solid var(--feature-color-1);
+}
+
+#recent-project-screenshot {
+  border-radius: 10px;
+  box-shadow: var(--box-shadow-heavy);
 }
