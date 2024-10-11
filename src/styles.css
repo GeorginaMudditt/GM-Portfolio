@@ -123,6 +123,11 @@ footer {
   border: 3px solid var(--feature-color-1);
 }
 
+.btn-form-send {
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
 /* Images CSS */
 
 .she-codes img {
@@ -173,22 +178,28 @@ footer {
 }
 
 .form {
-  border: 5px solid blue;
   display: flex;
   justify-content: center;
 }
 
 .form-container {
-  border: 5px solid red;
+  border: 10px solid var(--feature-color-1-light);
+  border-radius: 10px;
   font-family: var(--font-body);
   font-size: 34px;
+  margin-bottom: 50px;
+  padding: 40px 60px 40px 60px;
   text-align: left;
-  width: 600px;
+  width: 650px;
 }
 
 form input,
 form textarea {
-  width: 600px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow-light);
+  margin: 10px 0;
+  width: 520px;
 }
 
 /* Media Queries */
