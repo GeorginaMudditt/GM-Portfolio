@@ -67,6 +67,7 @@ h3 {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 .navbar {
   background-color: var(--feature-color-1-light);
@@ -180,6 +181,18 @@ footer {
   margin: 0 0 0 20px;
 }
 /* Portfolio Page CSS */
+.projects-row {
+  margin-bottom: 100px;
+}
+.my-projects-screenshot {
+  border-radius: 10px;
+  box-shadow: var(--box-shadow-heavy);
+  opacity: 0.7;
+  z-index: 1;
+}
+.to-come-later {
+  display: none;
+}
 /* Contact Page CSS */
 
 .hover-color:hover {
