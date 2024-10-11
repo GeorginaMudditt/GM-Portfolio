@@ -167,6 +167,30 @@ footer {
 /* Portfolio Page CSS */
 /* Contact Page CSS */
 
+.hover-color:hover {
+  color: var(--feature-color-2);
+  text-decoration: underline;
+}
+
+.form {
+  border: 5px solid blue;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  border: 5px solid red;
+  font-family: var(--font-body);
+  font-size: 34px;
+  text-align: left;
+  width: 600px;
+}
+
+form input,
+form textarea {
+  width: 600px;
+}
+
 /* Media Queries */
 
 @media (max-width: 576px) {
