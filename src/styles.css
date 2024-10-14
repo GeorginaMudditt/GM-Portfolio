@@ -222,6 +222,7 @@ form textarea {
   border-radius: 10px;
   box-shadow: var(--box-shadow-light);
   margin: 10px 0;
+  padding: 10px;
   width: 520px;
 }
 
