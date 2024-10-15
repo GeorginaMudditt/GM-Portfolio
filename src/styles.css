@@ -180,6 +180,12 @@ footer {
   text-align: left;
   margin: 0 0 0 20px;
 }
+
+.blockquote-footer,
+.mb-0 {
+  background-color: var(--background-color);
+  color: var(--feature-color-1);
+}
 /* Portfolio Page CSS */
 .projects-row {
   margin-bottom: 100px;
