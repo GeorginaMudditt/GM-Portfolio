@@ -203,6 +203,7 @@ footer {
 
 .cv-img {
   margin-bottom: 60px;
+  max-width: 80%;
 }
 
 /* Contact Page CSS */
