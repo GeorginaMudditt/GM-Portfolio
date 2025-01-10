@@ -199,6 +199,20 @@ footer {
   z-index: 1;
 }
 
+/* Varstar Page CSS */
+
+.varstar-container {
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto;
+  max-width: 60%;
+}
+
+.btn-varstar {
+  margin: 50px auto 0 auto;
+  max-width: 400px;
+}
+
 /* CV Page CSS */
 
 .cv-img {
