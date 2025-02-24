@@ -153,11 +153,6 @@ footer {
   width: auto;
 }
 
-#recent-project-screenshot {
-  border-radius: 10px;
-  box-shadow: var(--box-shadow-heavy);
-}
-
 #profile-pic {
   border-radius: 10px;
   box-shadow: var(--box-shadow-heavy);
@@ -169,9 +164,6 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-}
-.recent-project-container {
-  margin: 80px auto;
 }
 
 /* About Page CSS */
@@ -189,30 +181,27 @@ footer {
 }
 
 /* Portfolio Page CSS */
-.projects-row {
-  margin-bottom: 100px;
+
+.portfolio-project-image-left {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 100px 40px;
+}
+.portfolio-project-image-right {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 100px 40px;
 }
 .my-projects-screenshot {
   border: 15px solid var(--feature-color-1-light);
   border-radius: 10px;
   box-shadow: var(--box-shadow-heavy);
   filter: grayscale(80%);
+  max-width: 600px;
   opacity: 0.7;
   z-index: 1;
-}
-
-/* Varstar Page CSS */
-
-.varstar-container {
-  display: flex;
-  flex-direction: column;
-  margin: 200px auto;
-  max-width: 60%;
-}
-
-.btn-varstar {
-  margin: 50px auto 0 auto;
-  max-width: 400px;
 }
 
 /* CV Page CSS */
