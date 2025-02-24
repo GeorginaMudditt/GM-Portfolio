@@ -204,6 +204,10 @@ footer {
   z-index: 1;
 }
 
+.smaller-text {
+  font-size: 24px;
+}
+
 /* CV Page CSS */
 
 .cv-img {
@@ -251,8 +255,29 @@ form textarea {
     max-width: 300px;
   }
 }
+@media (max-width: 800px) {
+  .portfolio-project-image-left {
+    grid-template-columns: 1fr;
+    margin: 40px 20px;
+  }
+  .portfolio-project-image-right {
+    grid-template-columns: 1fr;
+    margin: 40px 20px;
+    grid-template-areas: "image" "text";
+  }
+  .portfolio-project-image-right img {
+    grid-area: image;
+  }
+  .portfolio-project-image-right .project-text {
+    grid-area: text;
+  }
+  .my-projects-screenshot {
+    max-width: 300px;
+    margin-bottom: 50px;
+  }
+}
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 40px;
     text-align: center;
@@ -313,9 +338,7 @@ form textarea {
   .gm-logo {
     font-size: 28px;
   }
-  .my-projects-screenshot {
-    display: none;
-  }
+
   #profile-pic {
     width: 80%;
   }
